@@ -18,6 +18,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.data.geo.Point;
 import org.springframework.stereotype.Service;
 
+import static java.lang.Math.sin;
+import static java.lang.Math.toRadians;
+
 @Service
 public class DistanceService {
 
@@ -103,4 +106,6 @@ public class DistanceService {
 //
 //        return earthRadius.getValue() * c;
 //    }
+
+
 }
